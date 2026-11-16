@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="portalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020c1b"/>
+    </linearGradient>
+    <linearGradient id="portalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#111c30"/>
+    </linearGradient>
+    <linearGradient id="djangoGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#092e20"/>
+      <stop offset="100%" stop-color="#0c4b33"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#portalBg)"/>
+
+  <!-- Top App Navigation Bar Mockup -->
+  <rect x="30" y="30" width="740" height="60" rx="8" fill="url(#portalCard)" stroke="#334155" stroke-width="1.2"/>
+  
+  <!-- Logo / Brand -->
+  <rect x="50" y="46" width="28" height="28" rx="6" fill="#149ddd"/>
+  <path d="M 57 60 L 64 52 L 71 60 Z" fill="#ffffff"/>
+  <text x="88" y="58" fill="#f8fafc" font-family="'Segoe UI', Roboto, sans-serif" font-weight="bold" font-size="16">Job Portal System</text>
+  <text x="88" y="74" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Python Django • Django REST Framework • MySQL DB</text>
+
+  <!-- Role Based Tabs -->
+  <g transform="translate(460, 47)">
+    <rect x="0" y="0" width="90" height="26" rx="13" fill="#149ddd"/>
+    <text x="14" y="17" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">Job Seeker</text>
+
+    <rect x="98" y="0" width="90" height="26" rx="13" fill="#334155" opacity="0.6"/>
+    <text x="114" y="17" fill="#cbd5e1" font-family="sans-serif" font-size="10">Employer</text>
+
+    <rect x="196" y="0" width="75" height="26" rx="13" fill="#334155" opacity="0.6"/>
+    <text x="210" y="17" fill="#cbd5e1" font-family="sans-serif" font-size="10">Admin</text>
+  </g>
+
+  <!-- Search & Filter Bar -->
+  <g transform="translate(30, 105)">
+    <rect width="740" height="46" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <circle cx="28" cy="23" r="6" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="32" y1="27" x2="38" y2="33" stroke="#94a3b8" stroke-width="2"/>
+    <text x="50" y="27" fill="#64748b" font-family="sans-serif" font-size="12">Search Python Developer, Backend Roles, Tech Stack...</text>
+    <rect x="635" y="8" width="92" height="30" rx="4" fill="#149ddd"/>
+    <text x="653" y="27" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Search</text>
+  </g>
+
+  <!-- Left: Featured Job Listings -->
+  <g transform="translate(30, 165)">
+    <!-- Job Card 1 -->
+    <rect width="420" height="92" rx="8" fill="url(#portalCard)" stroke="#334155" stroke-width="1" filter="url(#cardShadow)"/>
+    <rect x="18" y="18" width="40" height="40" rx="6" fill="#092e20" stroke="#10b981" stroke-width="1"/>
+    <text x="24" y="43" fill="#34d399" font-family="monospace" font-size="14" font-weight="bold">DJ</text>
+    <text x="70" y="36" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Junior Python / Django Developer</text>
+    <text x="70" y="53" fill="#94a3b8" font-family="sans-serif" font-size="11">TechSolutions Ltd • Full Time • Vijayawada</text>
+    <rect x="70" y="62" width="60" height="18" rx="4" fill="#1e293b"/>
+    <text x="78" y="75" fill="#38bdf8" font-family="sans-serif" font-size="9">REST API</text>
+    <rect x="136" y="62" width="55" height="18" rx="4" fill="#1e293b"/>
+    <text x="144" y="75" fill="#38bdf8" font-family="sans-serif" font-size="9">MySQL</text>
+    <rect x="330" y="32" width="75" height="28" rx="4" fill="#149ddd"/>
+    <text x="345" y="50" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Apply</text>
+
+    <!-- Job Card 2 -->
+    <rect y="105" width="420" height="92" rx="8" fill="url(#portalCard)" stroke="#334155" stroke-width="1" filter="url(#cardShadow)"/>
+    <rect x="18" y="123" width="40" height="40" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+    <text x="25" y="148" fill="#818cf8" font-family="monospace" font-size="14" font-weight="bold">PY</text>
+    <text x="70" y="141" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Backend Software Engineer</text>
+    <text x="70" y="158" fill="#94a3b8" font-family="sans-serif" font-size="11">Apex Cloud Systems • Remote / Hybrid</text>
+    <rect x="70" y="167" width="52" height="18" rx="4" fill="#1e293b"/>
+    <text x="77" y="180" fill="#38bdf8" font-family="sans-serif" font-size="9">Python</text>
+    <rect x="128" y="167" width="55" height="18" rx="4" fill="#1e293b"/>
+    <text x="136" y="180" fill="#38bdf8" font-family="sans-serif" font-size="9">Django</text>
+    <rect x="330" y="137" width="75" height="28" rx="4" fill="#149ddd"/>
+    <text x="345" y="155" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Apply</text>
+  </g>
+
+  <!-- Right: Application Tracking & REST API Architecture Panel -->
+  <g transform="translate(470, 165)">
+    <rect width="300" height="197" rx="8" fill="url(#portalCard)" stroke="#334155" stroke-width="1" filter="url(#cardShadow)"/>
+    <text x="20" y="28" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">APPLICATION STATUS TRACKING</text>
+    
+    <!-- Tracking Pipeline -->
+    <g transform="translate(20, 48)">
+      <!-- Item 1 -->
+      <circle cx="10" cy="12" r="7" fill="#10b981"/>
+      <path d="M 7 12 L 9 14 L 13 10" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+      <text x="26" y="15" fill="#f8fafc" font-family="sans-serif" font-size="11" font-weight="bold">Resume Uploaded</text>
+      <line x1="10" y1="20" x2="10" y2="40" stroke="#10b981" stroke-width="2"/>
+
+      <!-- Item 2 -->
+      <circle cx="10" cy="48" r="7" fill="#10b981"/>
+      <path d="M 7 48 L 9 50 L 13 46" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+      <text x="26" y="51" fill="#f8fafc" font-family="sans-serif" font-size="11" font-weight="bold">Application Submitted</text>
+      <line x1="10" y1="56" x2="10" y2="76" stroke="#3b82f6" stroke-width="2"/>
+
+      <!-- Item 3 -->
+      <circle cx="10" cy="84" r="7" fill="#3b82f6"/>
+      <text x="26" y="87" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold">Under Employer Review</text>
+      <line x1="10" y1="92" x2="10" y2="112" stroke="#64748b" stroke-width="1.5" stroke-dasharray="2 2"/>
+
+      <!-- Item 4 -->
+      <circle cx="10" cy="120" r="7" fill="#475569"/>
+      <text x="26" y="123" fill="#94a3b8" font-family="sans-serif" font-size="11">Shortlisted / Interview</text>
+    </g>
+  </g>
+
+  <!-- Bottom Architecture & Endpoints Bar -->
+  <rect x="30" y="380" width="740" height="90" rx="8" fill="url(#portalCard)" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(50, 405)">
+    <text x="0" y="14" fill="#94a3b8" font-family="sans-serif" font-size="10">BACKEND ARCHITECTURE</text>
+    <text x="0" y="38" fill="#34d399" font-family="monospace" font-size="14" font-weight="bold">Django REST Framework</text>
+  </g>
+  <line x1="260" y1="392" x2="260" y2="458" stroke="#334155"/>
+
+  <g transform="translate(285, 405)">
+    <text x="0" y="14" fill="#94a3b8" font-family="sans-serif" font-size="10">RELATIONAL DATABASE</text>
+    <text x="0" y="38" fill="#38bdf8" font-family="monospace" font-size="14" font-weight="bold">MySQL 8.0 Engine</text>
+  </g>
+  <line x1="495" y1="392" x2="495" y2="458" stroke="#334155"/>
+
+  <g transform="translate(520, 405)">
+    <text x="0" y="14" fill="#94a3b8" font-family="sans-serif" font-size="10">SECURITY &amp; ACCESS</text>
+    <text x="0" y="38" fill="#fbbf24" font-family="monospace" font-size="14" font-weight="bold">RBAC &amp; Session Auth</text>
+  </g>
+</svg>
