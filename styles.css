@@ -347,52 +347,6 @@ textarea:focus-visible {
   line-height: 1.85;
 }
 
-.hero-actions {
-  display: flex;
-  align-items: center;
-  gap: 27px;
-  padding-bottom: 4px;
-}
-
-.hero-button {
-  display: inline-flex;
-  min-height: 45px;
-  align-items: center;
-  gap: 25px;
-  padding: 0 17px;
-  background: #f0eeec;
-  color: #121111;
-  font-size: 11px;
-  font-weight: 600;
-  transition: background 180ms ease, transform 180ms ease;
-}
-
-.hero-button:hover {
-  background: #fff;
-  transform: translateY(-2px);
-}
-
-.hero-button span {
-  font-size: 16px;
-}
-
-.hero-talk {
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.36);
-  font-size: 11px;
-  transition: color 180ms ease, border-color 180ms ease;
-}
-
-.hero-talk span {
-  margin-left: 9px;
-  color: var(--accent);
-}
-
-.hero-talk:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
 .scroll-indicator {
   position: absolute;
   bottom: 36px;
@@ -1596,20 +1550,6 @@ textarea:focus-visible {
 
   .hero-footer > p {
     font-size: 12px;
-  }
-
-  .hero-actions {
-    gap: 19px;
-  }
-
-  .hero-button {
-    min-height: 42px;
-    gap: 14px;
-    font-size: 10px;
-  }
-
-  .hero-talk {
-    font-size: 10px;
   }
 
   .scroll-indicator {
